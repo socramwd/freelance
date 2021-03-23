@@ -97,43 +97,46 @@
                 </section>
             </div><!-- .servicios-->
             
-        </main>
-
-        <section>
-            <h2>Contacto</h2>
-
-            <form>
-                <fieldset>
-                    <legend>Contacta rellenando el formulario</legend>
-
-                    <div>
-                        <label>Nombre</label>
-                        <input type="text" placeholder="Tu nombre">
-                    </div>
-
-                    <div>
-                        <label>Teléfono</label>
-                        <input type="tel" placeholder="Tu teléfono">
-                    </div>
-
-                    <div>
-                        <label>Correo</label>
-                        <input type="email" placeholder="Tu email">
-                    </div>
-
-                    <div>
-                        <label>Mensaje</label>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </div>
-
-                    <div>
-                        <input type="submit" value="Enviar">
-                    </div>
-                </fieldset>
-            </form>
-        </section>
         
-        <footer>
+
+            <section>
+                <h2>Contacto</h2>
+
+                <form class="formulario">
+                    <fieldset>
+                        <legend>Contacta rellenando el  formulario</legend>
+
+                        <div class="contenedor-campos">
+                            <div class="campo">
+                                <label>Nombre</label>
+                                <input class="input-text" type="text"  placeholder="Tu nombre">
+                            </div>
+    
+                            <div class="campo">
+                                <label>Teléfono</label>
+                                <input class="input-text" type="tel"   placeholder="Tu teléfono">
+                            </div>
+    
+                            <div class="campo">
+                                <label>Correo</label>
+                                <input class="input-text" type="email"     placeholder="Tu email">
+                            </div>
+    
+                            <div class="campo">
+                                <label>Mensaje</label>
+                                <textarea class="input-text" name="" id=""     cols="30" rows="10" placeholder="Mensaje"></textarea>
+                            </div>
+                        </div><!-- .contenedor-campos-->
+
+                        <div class="alinear-derecha flex">
+                            <input class="boton w-sm-100" type="submit"    value="Enviar">
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        
+        <footer class="footer">
             <p>Todos los derechos reservados. Marcos Pérez | Freelance</p>
         </footer>
     </body>
